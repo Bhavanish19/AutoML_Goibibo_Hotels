@@ -1,1 +1,3 @@
 # AutoML_Goibibo_Hotels
+
+A regression-based model was developed to forecast hotel prices. To exclude some of the independent variables, tests such as VIF and p-values were taken into account. The H20.ai framework was utilized to train and test the hotel dataset variables on goibibo. The 'gbm' model yielded the highest accuracy of 51% on the test data. The findings indicate that the proposed linear regression model can successfully analyze and predict hotel ratings to a certain degree, but the predictive accuracy is still limited in some cases. Further investigations into alternative models can enhance the model's performance, such as removing outliers and using booster techniques.
